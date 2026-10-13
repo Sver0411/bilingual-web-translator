@@ -1,10 +1,24 @@
-# 双语网页翻译器
+<h1 align="center">双语网页翻译器</h1>
 
-| 版本 | 平台 | 许可证 | 翻译语言 |
-| :--- | :--- | :--- | :--- |
-| 0.2.1 | Chrome 116+ · Manifest V3 | [MIT](LICENSE) | 自动检测源语言 · 16 种目标语言 |
+<p align="center">
+  <strong>保留原文的实时双语网页翻译</strong>
+</p>
 
-[English](README.md) · **简体中文**
+<p align="center">
+  自动检测 · 16 种目标语言 · 动态内容实时更新
+</p>
+
+---
+
+<p align="center">
+  <a href="#使用">使用方法</a> ·
+  <a href="#安装">安装</a> ·
+  <a href="#翻译服务与数据">翻译服务与隐私</a> ·
+  <a href="#开发与验证">开发</a> ·
+  <a href="README.md">English</a>
+</p>
+
+---
 
 Chrome 通用网页双语翻译扩展，在浏览器中显示为「双语伴读」。保留原文，支持动态页面、按钮、链接和开放的 Shadow DOM。图片识别功能已移除；图片、Canvas、输入框和登录表单保持原样。
 

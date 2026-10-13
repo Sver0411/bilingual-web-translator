@@ -1,10 +1,24 @@
-# Bilingual Web Translator
+<h1 align="center">Bilingual Web Translator</h1>
 
-| Version | Platform | License | Translation languages |
-| :--- | :--- | :--- | :--- |
-| 0.2.1 | Chrome 116+ · Manifest V3 | [MIT](LICENSE) | Automatic source detection · 16 target languages |
+<p align="center">
+  <strong>Read web pages with original text and live translations</strong>
+</p>
 
-**English** · [简体中文 README](README.zh-CN.md)
+<p align="center">
+  Automatic detection · 16 target languages · Original text preserved
+</p>
+
+---
+
+<p align="center">
+  <a href="#features">Features</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#use">Usage</a> ·
+  <a href="#translation-services-and-privacy">Privacy</a> ·
+  <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+---
 
 A Chrome extension for reading web pages with translations alongside the original text. It appears as **Bilingual Reader** in the browser and supports ordinary HTTP and HTTPS websites, dynamic content, buttons, links, and open Shadow DOM. Original text and interactions are preserved.
 
