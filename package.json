@@ -1,0 +1,13 @@
+{
+  "name": "bilingual-web-translator",
+  "version": "0.2.1",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check.cjs",
+    "serve": "node scripts/serve.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}

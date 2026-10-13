@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><title>双语伴读</title></head><body class="popup">
+<div class="badge">双语伴读 · 网页翻译</div><h1>保留原文，随时对照</h1><p>普通网页实时双语翻译，动态内容自动更新。</p><div class="site" id="site">正在连接当前网页…</div>
+<button class="primary" id="toggle" disabled>翻译当前页</button>
+<label for="sourceLanguage">源语言</label><select id="sourceLanguage"></select><label for="targetLanguage">目标语言</label><select id="targetLanguage"></select>
+<label for="mode">译文显示方式</label><select id="mode"><option value="panel">悬浮对照 · 保留原页面布局</option><option value="inline">原文下方 · 追加译文</option></select><div class="tip" id="mode-tip">悬浮面板可移动、可收起；不会修改原文和选项。</div>
+<label class="check"><input type="checkbox" id="autoSite" disabled> 在此网站自动翻译</label><div class="tip">开启后，文字发送给所选翻译服务。图片、输入框和登录表单保持原样。</div>
+<div class="notice" id="status" role="status"></div><footer><span>Alt+A 快速开关</span><a href="#" id="options">设置与翻译服务 →</a></footer>
+<script src="common.js"></script><script src="i18n.js"></script><script src="sites.js"></script><script src="popup.js"></script></body></html>

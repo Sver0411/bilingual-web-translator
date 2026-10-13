@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "双语伴读",
+  "version": "0.2.1",
+  "description": "通用网页实时双语翻译，自动检测源语言，16 种常用目标语言，保留原文和页面交互。",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://translate.googleapis.com/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.abceed.com/*"
+      ],
+      "js": [
+        "common.js",
+        "i18n.js",
+        "engine.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "双语伴读"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "toggle-reader": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "显示 / 隐藏双语伴读"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "minimum_chrome_version": "116"
+}

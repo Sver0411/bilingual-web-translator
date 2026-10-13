@@ -1,0 +1,8 @@
+node_modules/
+research/
+archive/
+artifacts/
+.DS_Store
+.env
+.env.*
+*.log
