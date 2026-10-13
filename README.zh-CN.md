@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="extension/manifest.json"><img src="https://img.shields.io/badge/version-0.2.1-2f7a60?style=flat-square" alt="版本 0.2.1"></a>
-  <img src="https://img.shields.io/badge/Chrome-Manifest_V3-4285f4?style=flat-square&amp;logo=googlechrome&amp;logoColor=white" alt="Chrome Manifest V3">
-  <a href="#languages"><img src="https://img.shields.io/badge/languages-16_targets-8b5cf6?style=flat-square" alt="16 种目标语言"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat-square" alt="MIT 许可证"></a>
+  <a href="extension/manifest.json"><img src="docs/assets/badge-version.svg" alt="版本 0.2.1"></a>
+  <img src="docs/assets/badge-chrome.svg" alt="Chrome Manifest V3">
+  <a href="#languages"><img src="docs/assets/badge-languages.svg" alt="16 种目标语言"></a>
+  <a href="LICENSE"><img src="docs/assets/badge-license.svg" alt="MIT 许可证"></a>
 </p>
 
 <p align="center">
