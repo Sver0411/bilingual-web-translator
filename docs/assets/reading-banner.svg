@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Read the original and its translation together</title>
+  <desc id="desc">A green reading banner with an English sentence and its Chinese translation displayed in separate cards.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#103f35"/>
+      <stop offset="1" stop-color="#26745c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#b9e5c8"/>
+      <stop offset="1" stop-color="#e0f1b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="22" fill="url(#background)"/>
+  <circle cx="1150" cy="5" r="185" fill="#b9e5c8" opacity=".06"/>
+  <circle cx="535" cy="290" r="190" fill="#b9e5c8" opacity=".05"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <rect x="46" y="35" width="145" height="25" rx="12.5" fill="#ffffff" opacity=".11"/>
+    <text x="61" y="52" fill="#c4e8d2" font-size="11" font-weight="700" letter-spacing="1.2">BILINGUAL READING</text>
+    <text x="46" y="113" fill="#fff" font-size="42" font-weight="700">Read the web.</text>
+    <text x="46" y="162" fill="url(#accent)" font-size="42" font-weight="700">Keep every original.</text>
+    <text x="48" y="208" fill="#c7dfd3" font-size="15">Your page. Your languages. Side by side.</text>
+    <rect x="646" y="35" width="498" height="90" rx="13" fill="#ffffff"/>
+    <rect x="663" y="52" width="30" height="20" rx="6" fill="#e9efed"/>
+    <text x="670" y="66" fill="#567165" font-size="10" font-weight="700">EN</text>
+    <text x="704" y="66" fill="#73867e" font-size="11" font-weight="600" letter-spacing=".8">ORIGINAL</text>
+    <text x="664" y="100" fill="#243b32" font-size="21">The meeting starts at nine.</text>
+    <path d="M892 128v10m-5-4 5 5 5-5" fill="none" stroke="#bcdfcd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="646" y="144" width="498" height="82" rx="13" fill="#f0f8ee"/>
+    <rect x="663" y="158" width="30" height="20" rx="6" fill="#d2e8d6"/>
+    <text x="670" y="172" fill="#417751" font-size="10" font-weight="700">ZH</text>
+    <text x="704" y="172" fill="#66806b" font-size="11" font-weight="600" letter-spacing=".8">TRANSLATION</text>
+    <text x="664" y="207" fill="#23563b" font-size="21" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">会议九点开始。</text>
+  </g>
+</svg>
